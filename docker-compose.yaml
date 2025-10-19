@@ -1,7 +1,7 @@
 services:
 
   # Esse banco de dados se tornou o DB principal, sendo ReadOnly
-  db:
+  db-central:
     image: postgres:18-alpine3.22
     container_name: emotion-db-central
     restart: always
